@@ -1,5 +1,5 @@
 name: Daily Gita Advice
-on:
+on: 
   schedule:
     - cron: '30 2 * * *' # Runs at 02:30 UTC (8:00 AM IST)
   workflow_dispatch: # Allows manual triggers
